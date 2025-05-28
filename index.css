@@ -1,0 +1,105 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: #f5efe2;
+  font-family: "Winky Rough", sans-serif;
+   
+}
+
+h1{
+  font-family: "Red Hat Text", sans-serif;
+  color:#7b4f38
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button{
+  width: 3.8em;
+  height:3.8em;
+  padding: 0.3em;
+  cursor: pointer;
+  background-color: #e8f0fe;
+  border: unset;
+}
+
+ul{
+  gap:1em;
+}
+
+
+li{
+  display:flex;
+  align-items:center;
+  gap:0.75rem;
+  font-size: 1.3rem;
+  color:#e37d00;
+  background-color: #faebc3;
+  border: solid 0.2em #7b4f38 ;
+  border-radius: 0.4em;
+ 
+}
+
+header{
+  gap:0.5em;
+  padding-bottom: 1.1em;
+}
+
+main{
+  max-width: 21.9em;
+  flex-direction:column;
+  padding-top:2.5em;
+}
+
+.align-center{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.container-info{
+  gap: 1em;
+}
+
+.name-item{
+  color:#7b4f38;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  background:#e8f0fe;
+  border: solid 0.16em #7b4f38 ;
+  font-family: inherit;
+
+}
+
+.btn-add{
+ border: solid 0.2em #7b4f38 ;
+  border-radius: 0.3em;
+  
+}
+
+.btn-delete{
+  background-color: #ffb135;
+  border-bottom-right-radius: 0.2em;
+  border-top-right-radius:0.2em;
+}
+
+
+.logo{
+  width:19%;
+}
+
+.img-btn{
+  width:100%;
+}
+
+.list-container{
+  padding-top: 1.8em;
+}
