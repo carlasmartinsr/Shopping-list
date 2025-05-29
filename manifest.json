@@ -1,19 +1,19 @@
 {
     "name": "Shopping List",
     "short_name": "Shopping List",
-    "description": "",
+    "description": "A simple app to keep track of the things I need to buy.",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#f5efe2;",
     "theme_color": "#f5efe2",
     "icons": [
       {
-        "src": "img/cat-img-192.png",
+        "src": "img/android-chrome-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "img/cat-img-512.png",
+        "src": "img/android-chrome-512x512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
